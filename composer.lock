@@ -2079,12 +2079,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SmallRuralDog/laravel-vue-admin.git",
-                "reference": "cac156574e01d26e240a84ae14d43fb0a341842a"
+                "reference": "dd53eb5a1f5e505329d4b7dff9329fa74f1ca5c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SmallRuralDog/laravel-vue-admin/zipball/cac156574e01d26e240a84ae14d43fb0a341842a",
-                "reference": "cac156574e01d26e240a84ae14d43fb0a341842a",
+                "url": "https://api.github.com/repos/SmallRuralDog/laravel-vue-admin/zipball/dd53eb5a1f5e505329d4b7dff9329fa74f1ca5c0",
+                "reference": "dd53eb5a1f5e505329d4b7dff9329fa74f1ca5c0",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2138,7 +2138,7 @@
                 "laravel",
                 "vue"
             ],
-            "time": "2020-06-05T13:56:04+00:00"
+            "time": "2020-07-01T16:25:17+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

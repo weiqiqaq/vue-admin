@@ -6,7 +6,7 @@ return [
     //后台标题
     'title' => 'LaravelVueAdmin',
     //登录界面描述
-    'loginDesc' => 'LaravelVueAdmin 是开箱即用的 Laravel 后台扩展',
+    'loginDesc' => 'LaravelVueAdmin',
     //logo 地址 null为内置默认 分为黑暗和明亮两种
     'logo_show' => true,
     'logo' => null,
@@ -14,21 +14,21 @@ return [
     'logo_light' => null,
     'logo_mini_light' => null,
     //版权
-    'copyright' => 'Copyright © 2020 SmallRuralDog',
+    'copyright' => 'Copyright © 2020 Wei',
     //默认头像
     'default_avatar' => 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
     //登录页面背景
     'login_background_image' => 'https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg',
     //底部菜单
     'footerLinks' => [
-        [
-            'href' => 'https://github.com/SmallRuralDog/laravel-vue-admin',
-            'title' => '官网'
-        ],
-        [
-            'href' => 'https://smallruraldog.github.io/laravel-vue-admin/',
-            'title' => '文档'
-        ]
+//        [
+//            'href' => 'https://github.com/SmallRuralDog/laravel-vue-admin',
+//            'title' => '官网'
+//        ],
+//        [
+//            'href' => 'https://smallruraldog.github.io/laravel-vue-admin/',
+//            'title' => '文档'
+//        ]
     ],
     'bootstrap' => app_path('Admin/bootstrap.php'),
     'route' => [
@@ -69,7 +69,7 @@ return [
     'upload' => [
         // Disk in `config/filesystem.php`.
         'disk' => 'public',
-        'uniqueName'=>false,
+        'uniqueName'=>true,
         // Image and file upload path under the disk above.
         'directory' => [
             'image' => 'images',
